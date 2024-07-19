@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #FFF;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 16px;
+}
+
+.list li {
+    padding: 16px;
+}
+
+@media (max-width: 960px) {
+    .list {
+        flex-direction: column;
+        gap: 0px;
+        margin: 16px 0;
+    }
+
+    .list li {
+        padding: 8px;
+    }
+}
